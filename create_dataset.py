@@ -2313,8 +2313,8 @@ if __name__ == "__main__":
     output_directory_filtered = ["output_filtered_tcp", "output_filtered_udp", "output_filtered_mavlink"]
     jsons_output_directory = "jsons1"
     output_combined_file = "output_combined.json"
-    # process_pcaps()
-    # pcaps2jsons(jsons_output_directory)
+    process_pcaps()
+    pcaps2jsons(jsons_output_directory)
     target_directory = "./jsons1"
     # run_move_jsons(target_directory)
     # filtered_jsons(jsons_output_directory, output_directory_filtered[1])
